@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+   
+    "dev": " nodemon src/app.js",
+    "build": "sucrase ./src -d ./dist --transforms imports"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-rate-limit": "^5.2.6",
+    "express-redis-cache": "^1.1.3",
+    "ioredis": "^5.2.4",
+    "mongodb": "^4.13.0",
+    "mongoose": "^6.8.1",
+    "nodemon": "^2.0.20",
+    "process": "^0.11.10",
+    "redis": "^4.5.1",
+    "soap": "^1.0.0",
+    "sucrase": "^3.29.0"
+  }
+}
